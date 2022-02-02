@@ -38,9 +38,8 @@ function Dropdown({selected, setSelected, list, getDataSelected}) {
 					ref={ref} 
 					placeholder={selected ? selected : prompt}
 					value={displayValue()}
-					onChange={e=> {setQuery(e.target.value);
-									onChange(null);}}
-					onClick={()=> setOpen(prev => !prev)}
+					onChange=""
+					onClick=""
 
 					/>
 				<span>▼</span>
