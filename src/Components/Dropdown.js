@@ -27,7 +27,7 @@ function Dropdown({selected, setSelected, list, getDataSelected}) {
 	}
 	// function sendData(){
 	// 	getDataSelected();
-	// 	console.log("test")
+	// 	console.
 	// }
 
 	return (
